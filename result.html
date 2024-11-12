@@ -3,60 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gold and Silver Rates - Sameer Jewellers</title>
+    <title>Gold and Silver Rates - Sameer Jewellers & Al Akram Casting</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background: linear-gradient(135deg, #3b5998, #8b9dc3); /* Professional gradient background */
             color: #333;
         }
         .container {
-            width: 60%;
+            width: 70%;
             margin: 20px auto;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
             color: #2980b9;
+            font-size: 2.5em;
+        }
+        .shop-name {
+            color: #e67e22;
+            font-weight: bold;
+            font-size: 1.8em;
+            text-align: center;
+            background-color: #ecf0f1;
+            padding: 12px;
+            border-radius: 10px;
+            margin: 20px 0;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .result-container {
             text-align: center;
             font-size: 1.2em;
+            margin-top: 30px;
         }
         .rate-table {
-            width: 100%;
+            width: 80%;
             margin-top: 20px;
             border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
         }
         .rate-table th, .rate-table td {
-            padding: 10px;
+            padding: 12px;
             text-align: center;
             border: 1px solid #ddd;
         }
         .rate-table th {
             background-color: #2980b9;
             color: white;
+            font-size: 1.1em;
+        }
+        .rate-table td {
+            background-color: #f9f9f9;
+            font-size: 1.2em;
         }
         .footer {
             text-align: center;
             margin-top: 30px;
-            font-size: 1em;
+            font-size: 1.1em;
             color: #7f8c8d;
+        }
+        .highlight {
+            background-color: #f39c12;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .date-style {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        .contact-info {
+            font-size: 1.2em;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Gold and Silver Rates</h1>
+        <h1>Proddatur Gold and Silver Rates</h1>
+
+        <div class="shop-name">
+            <p>Sameer Jewellers & Al Akram Casting works</p>
+        </div>
+
         <div class="result-container">
-            <p><strong>Shop Name:</strong> Sameer Jewellers</p>
-            <p><strong>Rates as of:</strong> <span id="dateDisplay"></span></p>
+            <p class="date-style">Rates as of: <span id="dateDisplay"></span></p>
 
             <table class="rate-table">
                 <tr>
@@ -73,7 +121,11 @@
         </div>
 
         <div class="footer">
-            <p>Thank you for visiting Sameer Jewellers</p>
+            <p>Thank you for visiting Sameer Jewellers & Al Akram Casting</p>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact Us: <a href="tel:+919989975755">+91 99899 75755</a> | <a href="tel:+919182747920">+91 91827 47920</a></p>
         </div>
     </div>
 
